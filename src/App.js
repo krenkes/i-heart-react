@@ -1,15 +1,13 @@
 import './App.css';
-import Heart from './components/Heart';
+import HeartsList from './components/HeartsList';
 import Header from './components/Header';
-
-const message = 'cool cud';
 
 
 function App() {
   return (
     <>
       <Header />
-      <Heart msg={message} />
+      <HeartsList />
     </>
   );
 }
